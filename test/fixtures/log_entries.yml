@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  log_id: MyString
+  date: MyString
+  call: MyString
+  addr: MyString
+  address: MyString
+  city: MyString
+  state: MyString
+  zip_code: MyString
+  lat: 1.5
+  lng: 1.5
+  gmaps: false
+
+two:
+  log_id: MyString
+  date: MyString
+  call: MyString
+  addr: MyString
+  address: MyString
+  city: MyString
+  state: MyString
+  zip_code: MyString
+  lat: 1.5
+  lng: 1.5
+  gmaps: false

@@ -1,0 +1,14 @@
+<ul id="markers_list"> </ul>
+<div id="gmaps_cont" style="float: clear;">
+<%= gmaps("markers" => { "data" => @json, "options" => {"do_clustering" => true, "clusterer_maxZoom" => 17, "clusterer_gridSize" => 30, "randomize" => true, "max_random_distance" => 5, "list_container" => "markers_list" }}) %>
+</div>
+<div id="slider"></div>
+<script>
+$( "#slider" ).slider({
+  change: function( event, ui ) {$( "#slider" ).slider( "values" )},
+  animate: true,
+  range: true,
+  max: 54,
+  min: 1
+});
+</script>
